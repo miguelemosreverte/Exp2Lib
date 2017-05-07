@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <script src="javascripts/jquery.js"></script>
+        <script src="javascripts/handleFileSelect.js"></script>
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <fieldset style="width:50%"><legend>Language Model</legend>
+    <input type="file" class="files"  name="MT">
+    <div id="progress_bar"><div class="percent">0%</div></div>
+
+    </fieldset>
+
+    <p>Welcome to {{ title }}.</p>
+    <p>This page has been requested <strong>{{ counter }} times</strong>.</p>
+  </body>
+</html>
